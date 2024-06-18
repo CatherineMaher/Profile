@@ -2,7 +2,6 @@ import React from 'react';
 import { Card} from 'react-bootstrap';
 
 function StatisticsCard({ number, title, percentage , color ,arrowDirection }) {
-  let heights =[50, 80, 35, 70, 20];
   return (
     <Card className="mb-4 mt-4 m-4" style={{ borderRadius:"15px"}}>
       <Card.Body>
