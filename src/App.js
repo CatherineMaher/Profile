@@ -5,7 +5,6 @@ import StatisticsCard from './components/StatisticsCard';
 import img1 from './assets/girl.jpg';
 import AppointmentInvoicesCard from './components/AppointmentInvoicesCard';
 import './App.css'; 
-import BarChart from './components/BarChart';
 
 function App() {
   const chart1 = [50, 80, 35, 70, 20];

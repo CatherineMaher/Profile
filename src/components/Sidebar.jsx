@@ -1,6 +1,5 @@
 import React from 'react';
 import SidebarCard from './SidebarCard';
-import logo from "../assets/logo.jpg"
 function Sidebar() {
   return (
     

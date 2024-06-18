@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
-import BarChart from './BarChart';
+import { Card} from 'react-bootstrap';
 
 function StatisticsCard({ number, title, percentage , color ,arrowDirection }) {
   let heights =[50, 80, 35, 70, 20];

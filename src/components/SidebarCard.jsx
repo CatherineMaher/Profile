@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import { lighten } from 'polished';
 
 function SidebarCard({ iconClass, title ,color ,isActive = false }) {
-  const [active , setActive]= useState(isActive);
+  const [active]= useState(isActive);
   const lightColor = lighten(0.3, color);
   return (
     <Card className="text-center mb-3 p-2 border-1 align-items-center" style={{ backgroundColor: `${active ? "#38A3FF": "#ffffff"}` ,width:"85px",  borderRadius: '25%',position:"relative" }}>
